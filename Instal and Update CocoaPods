@@ -1,0 +1,13 @@
+https://guides.cocoapods.org/using/troubleshooting.html - CocoaPods docs
+
+If you have no permission get the admin rights
+Open the Terminal and write comand sudo su
+You can check the version pod --version
+If you have CocoaPods in you mac you cn delete it and reinstal for last version
+$ gem uninstall cocoapods
+$ gem install cocoapods
+
+After build your project you shold tap the root folder and check in menu Services -> New Terminal at Folder
+And wright: "pod update" command
+Your project get needed dependencies for new Cocoapods in your mac
+And then open your project in XCOode with white file .workspace extension
